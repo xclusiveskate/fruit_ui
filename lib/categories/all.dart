@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fruit_ui/pages/product_display.dart';
 
 class All extends StatefulWidget {
   const All({super.key});
@@ -53,7 +54,10 @@ class _AllState extends State<All> {
           itemBuilder: (context, index) {
             return InkWell(
               onTap: () {
-                print("tapped");
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const ProductDisplay()));
               },
               child: Container(
                 // color: Colors.blue,

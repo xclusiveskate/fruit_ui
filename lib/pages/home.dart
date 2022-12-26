@@ -48,8 +48,7 @@ class _HomePageState extends State<HomePage>
                         color: Colors.amber,
                       ),
                       child: IconButton(
-                          onPressed: () {},
-                          icon: const Icon(Icons.arrow_back))),
+                          onPressed: () {}, icon: const Icon(Icons.apps))),
                   Container(
                       width: 40,
                       height: 40,
